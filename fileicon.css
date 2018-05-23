@@ -27,18 +27,20 @@
   border-color: #fff #fff rgba(255,255,255,.35) rgba(255,255,255,.35);
 }
 .file-icon::after {
-  display: block;
-  content: attr(data-type);
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  font-size: 10px;
-  color: #fff;
-  text-transform: lowercase;
-  width: 100%;
-  padding: 2px;
-  white-space: nowrap;
-  overflow: hidden;
+	display: block;
+	content: '=';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	font-size: 34px;
+	opacity: 0.6;
+	line-height: 20px;
+	color: #fff;
+	text-transform: lowercase;
+	width: 100%;
+	padding: 2px;
+	white-space: nowrap;
+	overflow: hidden;
 }
 /* fileicons */
 .file-icon-xs {
@@ -68,8 +70,9 @@
   border-width: 4px;
 }
 .file-icon-sm::after {
-  font-size: 7px;
-  padding: 2px;
+    font-size: 24px;
+    padding: 2px;
+    line-height: 14px;
 }
 .file-icon-lg {
   width: 48px;
@@ -81,8 +84,9 @@
   border-width: 8px;
 }
 .file-icon-lg::after {
-  font-size: 16px;
-  padding: 4px 6px;
+    font-size: 60px;
+    padding: 4px 6px;
+    line-height: 35px;
 }
 .file-icon-xl {
   width: 96px;
@@ -94,8 +98,9 @@
   border-width: 16px;
 }
 .file-icon-xl::after {
-  font-size: 24px;
-  padding: 4px 10px;
+	font-size: 130px;
+	padding: 4px 10px;
+	line-height: 70px;
 }
 /* fileicon.types */
 .file-icon[data-type=zip],
